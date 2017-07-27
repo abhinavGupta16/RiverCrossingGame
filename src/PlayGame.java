@@ -17,7 +17,7 @@ public class PlayGame {
     GameHelperClass.printRules();
 
     while (true) {
-
+      System.out.println("Enter your move and hit enter:");
       Scanner input = new Scanner(System.in);
       String inputCharacter = input.next();
       if(!GameHelperClass.validateInputs(inputCharacter)){

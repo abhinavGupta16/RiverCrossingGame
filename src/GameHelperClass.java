@@ -99,10 +99,9 @@ public class GameHelperClass {
         System.out.print(" ");
       }
     }
-    System.out.print("|");
+    System.out.print("|" + "-->Raft");
     System.out.println();
     System.out.print(" "+"|");
-
     for(int i = 0;i<4;i++){
       if(i==3) {
         System.out.print("|");
